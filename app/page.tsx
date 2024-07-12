@@ -80,7 +80,7 @@ const App: React.FC = () => {
             onChange={handleFileChange}
           />
           
-          {fileURL && <Image src={fileURL} alt="Uploaded" width="200" />}
+          {fileURL && <Image src={fileURL} alt="Uploaded" width="200" height={300} />}
           <textarea
             className="w-full max-h-80 border p-2 rounded-md"
             value={Prompt}
